@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+    </style>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jasmine</title>
+  </head>
+
+  <body>
+    <!-------------------Start of heading section--------------------->
+    <header>
+      <!----------------- starting navbar -------------->
+
+      <nav>
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <div class="burger" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <!---------------------- starting of menu section  ------------------>
+
+        <ul class="ham" id="ham">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+
+        <!---------------- end of menu section  ------------------>
+      </nav>
+
+      <!----------------- end of navbar  ----------------->
+    </header>
+
+    <!---------------------start of home------------------------>
+    <section id="home" class="home">
+      <div class="intro">
+        <h1>Hi, I am Jash</h1>
+        <h2>Innovative developer & passionate dreamer.</h2>
+      </div>
+      <div class="me"><img src="images/Jash.png" alt="" /></div>
+    </section>
+
+    <!--------------- end of home--------------------------- -->
+
+    <!-- -----------------about section -------------------- -->
+    <section id="about" class="about">
+      <!------------ start of left side  ----------------->
+      <div class="about-left">
+        <img src="images/Jas.jpg" alt="" />
+      </div>
+
+      <!------------- start right side  ----------->
+
+      <div class="about-right">
+        <h1>About <span>Me</span></h1>
+        <h2>Hey there! I am <span>Jasmine</span></h2>
+        <p>
+          A web developer with growing experience of software development, I'm
+          passionate about learning and exploring new technologies. Beyond
+          coding, I also enjoy sharing my insights through
+          <a
+            href="https://voyagers0.blogspot.com"
+            target="_blank"
+            rel="noopener noreferrer "
+            >blogging</a
+          >. With a knack for problem-solving and a love for clean, efficient
+          code, I'm dedicated to delivering high-quality solutions that make an
+          impact. Let's connect! (And yeah, I'm scared of LinkedIn.)
+        </p>
+
+        <a href="images/My Cv.pdf" download class="batan">Download CV</a>
+
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/jasminkc"
+            target="_blank"
+            rel="noopener noreferrer "
+            class="icon-link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/jasmin001"
+            target="_blank"
+            rel="noopener noreferrer "
+            class="icon-link"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://voyagers0.blogspot.com"
+            target="_blank"
+            rel="noopener noreferrer "
+            class="icon-link"
+            ><i class="fab fa-blogger"></i
+          ></a>
+          <a
+            href="YOUR_OTHER_URL"
+            target="_blank"
+            rel="noopener noreferrer "
+            class="icon-link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <!-- --------------end of right side  --------------->
+    </section>
+    <!----------------- about section end ------------------- -->
+
+    <!-- start of skills section  -->
+
+    <section id="skills" class="skills">
+      <h2 class="tauko">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="l-skills">
+          <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%"></div>
+              <span>90%</span>
+            </div>
+
+            <p>CSS</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%"></div>
+              <span>85%</span>
+            </div>
+
+            <p>Javascript</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 65%"></div>
+              <span>65%</span>
+            </div>
+
+            <p>My SQL</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 50%"></div>
+              <span>50%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="r-skills">
+          <div class="cright">
+            <i class="fab fa-html5"></i>
+
+            <i class="fab fa-css3-alt"></i>
+
+            <i class="fab fa-js"></i>
+
+            <i class="fas fa-database"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end if skills  -->
+
+    <!------------- start of contact me  ------------------>
+
+    <section id="contact">
+      <div class="contact">
+        <!------------ start of left contact ------------------ -->
+        <div class="c-left">
+          <h2>Contact <span>Info</span></h2>
+          <p>
+            For any queries or suggestions, feel free to contact. Let's
+            Connect!!!
+          </p>
+
+          <p>
+            <i class="fas fa-phone"></i><strong> Phone:</strong> +977-9876543210
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i
+            ><strong> Email:</strong> jasminwtff@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i
+            ><strong> Address:</strong> Kathmandu, Nepal
+          </p>
+
+          <div class="c-icon">
+            <a
+              href="https://www.instagram.com/jasminkc"
+              target="_blank"
+              rel="noopener noreferrer "
+              class="icon-link2"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/jasminkc001"
+              target="_blank"
+              rel="noopener noreferrer "
+              class="icon-link2"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://voyagers0.blogspot.com"
+              target="_blank"
+              rel="noopener noreferrer "
+              class="icon-link2"
+              ><i class="fab fa-blogger"></i
+            ></a>
+            <a
+              href="YOUR_OTHER_URL"
+              target="_blank"
+              rel="noopener noreferrer "
+              class="icon-link2"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <!------------ end of left contact ------------------ -->
+
+        <!---------------- start of right contact ------------ -->
+        <div class="c-right">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="8d19dcc9-fe91-4536-a1b7-15c835c9f9ec"
+            />
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="text" name="Subject" placeholder="Subject" required />
+
+            <textarea
+              name="Message"
+              cols="30"
+              rows="5"
+              placeholder="Message"
+              required
+            ></textarea>
+            <input
+              type="checkbox"
+              name="botcheck"
+              class="hidden"
+              style="display: none"
+            />
+            <button type="submit" class="button">Send</button>
+          </form>
+        </div>
+
+        <!------------- end of right contact ----------- -->
+      </div>
+    </section>
+    <!-- footer start  -->
+
+    <footer>
+      <p>&copy 2024 . All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+    const ham = document.getElementById('ham');
+    ham.classList.toggle('active');
+}
+
+    </script>
+
+    <!----------- end of contact  ------------->
+  </body>
+</html>
