@@ -737,7 +737,7 @@ footer p {
 
 
 #about{
-  padding: 60px 60px; 
+  padding: 40px 40px; 
   width: auto;
   height: 95vh;
 }
@@ -774,7 +774,7 @@ footer p {
 
 }
 .about-left img {
-  width: 60%;
+  width: 90%;
 }
 
 .social-icons {
@@ -803,7 +803,7 @@ footer p {
 }
 .r-skills {
   width: 100%;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 #contact {
@@ -852,11 +852,7 @@ margin-top: 25px;
   }
 
   .home img {
-    margin-top: 15px;
-      padding-top: 0rem;
-    width: 15vh;
-    margin-left: 100px;
-    float: right;
+   display: none;
   }
   #skills{
     height: 110vh;
