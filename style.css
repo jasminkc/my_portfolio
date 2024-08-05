@@ -515,12 +515,13 @@ footer p {
   }
   .home img{
     width: 40vh;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-left: 1px;
   }
   
   .intro{
-    margin-top: 150px;
+    margin-top: 70px;
+    padding-top: 50px;
   }
   .intro h1 {
     font-size: 3.8rem;
@@ -594,10 +595,13 @@ footer p {
     .home img {
       width: 30vh;
       margin-left: 0px;
-      padding-top: 25px;
+      padding-top: 2px;
     }
     #about{
-      height: 70vh;
+      height: 75vh;
+    }
+    .intro{
+      padding-top: 2px;
     }
     
     .intro h1{
@@ -693,7 +697,8 @@ footer p {
   align-items: center;
 }
 .intro{
-  margin-top: 20px;
+  margin-top: 10px;
+  padding-top: 2px;
 }
  .home img {
   margin-top: 0px;
@@ -842,13 +847,15 @@ margin-top: 25px;
 
 
 @media (max-width: 400px){
+  .intro{
+    padding-top: 2px;
+  }
 
   .home img {
     margin-top: 15px;
       padding-top: 0rem;
     width: 15vh;
     margin-left: 100px;
-    /* margin: 0px; */
     float: right;
   }
   #skills{
